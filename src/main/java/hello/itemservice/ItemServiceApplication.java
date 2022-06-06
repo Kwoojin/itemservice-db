@@ -32,7 +32,7 @@ public class ItemServiceApplication {
 	}
 
 
-	@Bean
+	/*@Bean
 	@Profile("test")
 	public DataSource dataSource() {
 		log.info("메모리 데이터 베이스 초기화");
@@ -42,5 +42,5 @@ public class ItemServiceApplication {
 		dataSource.setUsername("sa");
 		dataSource.setPassword("");
 		return dataSource;
-	}
+	}*/
 }
